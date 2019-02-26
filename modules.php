@@ -9,7 +9,7 @@
 
 namespace primaria\modules;
 
-use yii\base\Module as BaseModule;
+use yii\base\Module ;
 
 /**
  * This is the main module class for the Yii2-user.
@@ -18,7 +18,7 @@ use yii\base\Module as BaseModule;
  *
  * @author primaria <primaria@gmail.com>
  */
-class Modules extends BaseModule
+class Modules extends Module
 {
     const VERSION = '0.1.0';
 
