@@ -1,0 +1,30 @@
+{
+	"name": "primaria/yii2-plugins-system",
+	"description": "modules manager system as WP for Yii2",
+	"keywords": [
+		"yii2",
+    	"modules",
+    	"event",
+    	"yii2-modules"
+    ],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"version": "1.0.0",
+	"support": {
+		"source": "https://github.com/primaria/pri-modules",
+    	"issues": "https://github.com/primaria/pri-modules/issues"
+  	},
+  	"authors": [{
+    		"name": "primaria",
+			"homepage": "https://github.com/primaria/"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": ">=2.0.10"
+	},
+	"autoload": {
+    	"psr-4": {
+      		"primaria\\modules\\": "src/"
+    	}
+  	}
+}
